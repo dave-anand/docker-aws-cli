@@ -5,7 +5,7 @@ This is a containerized AWS CLI based on `python:alpine`.
 ## Build
 
 ```
-docker build -t anand-000/docker-aws-cli .
+docker build -t anand000/docker-aws-cli .
 ```
 
 Automated build on Docker Hub
