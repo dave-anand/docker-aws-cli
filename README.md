@@ -1,6 +1,6 @@
 # AWS CLI Docker Container
 
-This is a containerized AWS CLI based on `python:alpine.
+This is a containerized AWS CLI based on `python:alpine`.
 
 ## Build
 
@@ -27,7 +27,7 @@ export AWS_SECRET_ACCESS_KEY="<key>"
 
 ## References
 
-AWS CLI Docs: https://aws.amazon.com/documentation/cli/
+[AWS CLI Docs](https://aws.amazon.com/documentation/cli/)
 
 # License
 
