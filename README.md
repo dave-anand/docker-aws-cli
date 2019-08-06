@@ -4,7 +4,7 @@ This is a containerized AWS CLI based on `python:alpine`.
 
 [![DockerHub Badge](http://dockeri.co/image/anand000/docker-aws-cli)](https://hub.docker.com/r/anand000/docker-aws-cli/)
 
-## Build
+## Example build
 
 ```
 docker build -t anand000/docker-aws-cli .
