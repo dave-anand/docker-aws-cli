@@ -8,14 +8,12 @@ This is a containerized AWS CLI based on `python:alpine`.
 docker build -t anand000/docker-aws-cli .
 ```
 
-Automated build on Docker Hub
-
 [![DockerHub Badge](http://dockeri.co/image/anand000/docker-aws-cli)](https://hub.docker.com/r/anand000/docker-aws-cli/)
 
 
 ## Usage
 
-Configure:
+Ensure the following are specified:
 
 ```
 export AWS_ACCESS_KEY_ID="<id>"
@@ -23,13 +21,9 @@ export AWS_SECRET_ACCESS_KEY="<key>"
 export AWS_DEFAULT_REGION="<region>"
 ```
 
-## Maintenance 
-
-* Image build & publish tasks are automated and triggered off of master commits and tags.
-
 ## References
 
-[AWS CLI Docs](https://aws.amazon.com/documentation/cli/)
+[Amazon AWS Documentation](https://aws.amazon.com/documentation/cli/)
 
 # License
 
