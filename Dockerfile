@@ -1,7 +1,7 @@
 FROM python:alpine
 
 # Define packages
-ENV PACKAGES "bash curl jq less"
+ENV PACKAGES "bash curl git jq less"
 
 # Packages and AWS CLI
 RUN apk add --no-cache --update $PACKAGES \
