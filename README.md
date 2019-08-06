@@ -15,9 +15,9 @@ docker build -t anand000/docker-aws-cli .
 **Ensure the following are set**
 
 ```
-export AWS_ACCESS_KEY_ID="<id>"
-export AWS_SECRET_ACCESS_KEY="<key>"
-export AWS_DEFAULT_REGION="<region>"
+export AWS_ACCESS_KEY_ID="<aws_access_key_id>"
+export AWS_SECRET_ACCESS_KEY="<aws_secret_access_key>"
+export AWS_DEFAULT_REGION="<aws_default_region>"
 ```
 
 **Run the container detatched**
