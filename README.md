@@ -10,14 +10,31 @@ This is a containerized AWS CLI based on `python:alpine`.
 docker build -t anand000/docker-aws-cli .
 ```
 
-## Usage
+## Example usage
 
-Ensure the following are specified:
+*Ensure the following are set*
 
 ```
 export AWS_ACCESS_KEY_ID="<id>"
 export AWS_SECRET_ACCESS_KEY="<key>"
 export AWS_DEFAULT_REGION="<region>"
+```
+
+*Run the container detatched*
+```
+docker run --name docker-aws-cli \
+    --rm \
+    --detach \
+    --tty \
+    --env "AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}" \
+    --env "AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}" \
+    --env "AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION}" \
+    anand000/docker-aws-cli
+```
+
+*Run a command*
+```
+docker exec -it docker-aws-cli aws s3 ls
 ```
 
 ## References
