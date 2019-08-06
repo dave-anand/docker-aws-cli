@@ -10,7 +10,7 @@ docker build -t anand000/docker-aws-cli .
 
 Automated build on Docker Hub
 
-[![DockerHub Badge](http://dockeri.co/image//docker-aws-cli)](https://hub.docker.com/r/anand-000/docker-aws-cli/)
+[![DockerHub Badge](http://dockeri.co/image//docker-aws-cli)](https://hub.docker.com/r/anand000/docker-aws-cli/)
 
 ## Usage
 
