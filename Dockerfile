@@ -11,3 +11,4 @@ RUN apk add --no-cache --update $PACKAGES \
 # Copy default AWS config
 #COPY ./awscli-config.txt /.aws/config
 
+ENTRYPOINT /bin/bash
