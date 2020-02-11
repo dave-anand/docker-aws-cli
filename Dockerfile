@@ -1,7 +1,7 @@
 FROM python:alpine
 
 # Define packages
-ENV PACKAGES "bash curl git jq less openssh"
+ENV PACKAGES "bash curl git jq less openssh openssl"
 
 # Packages and AWS CLI
 RUN \
